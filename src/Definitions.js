@@ -1,20 +1,20 @@
 import React from "react";
+import Meanings from "./Meanings";
 
 import "./Definitions.css";
 
 export default function Definitions(props) {
-  console.log(props.dictData);
-  return (
-    <div className="Definitions">
-      <div className="definition-section">
-        <h2>{props.dictData.word}</h2>
-        <p>{props.dictData.phonetics}</p>
+  if (props.dictData) {
+    return (
+      <div className="Definitions">
+        <div className="section">
+          <h2>{props.dictData.word}</h2>
+          <p>{props.dictData.phonetics}</p>
+        </div>
+        <Meanings meanings={props.dictData.meanings} />
       </div>
-      <div className="definition-section">
-        <h3>{props.dictData.meanings[0].partOfSpeech}</h3>
-        <p>{props.dictData.meanings[0].definition}</p>
-        <p>{props.dictData.meanings[0].synonyms}</p>
-      </div>
-    </div>
-  );
+    );
+  } else {
+    return null;
+  }
 }
