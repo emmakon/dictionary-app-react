@@ -1,7 +1,12 @@
+body {
+  background-color: lightpink;
+}
+
 .App {
   text-align: center;
 }
 
 .App footer {
   font-size: 11px;
+  font-family: "Courier New", Courier, monospace;
 }

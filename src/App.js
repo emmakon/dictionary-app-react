@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1 className="mt-5">Dictionary App</h1>
-        <Dictionary />
+        <Dictionary defaultWord="sunset" />
         <footer>
           Coded by Emma Konrad, open-sourced on Github and hosted on Netflify
         </footer>
