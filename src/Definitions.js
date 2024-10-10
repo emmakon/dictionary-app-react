@@ -7,9 +7,11 @@ export default function Definitions(props) {
   if (props.dictData) {
     return (
       <div className="Definitions">
-        <div className="section">
-          <h2>{props.dictData.word}</h2>
-          <p>{props.dictData.phonetics}</p>
+        <div>
+          <section>
+            <h2>{props.dictData.word}</h2>
+            <p className="phonetic">{props.dictData.phonetics}</p>
+          </section>
         </div>
         <Meanings meanings={props.dictData.meanings} />
       </div>

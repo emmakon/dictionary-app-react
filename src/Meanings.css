@@ -1,6 +1,18 @@
-.Meanings {
-  background-color: white;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
+.Meanings h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.Meanings p {
+  font-size: 14px;
+  line-height: 17px;
+  margin: 20px 0 10px;
+}
+
+.Meanings em {
+  font-size: 13px;
+  line-height: 15px;
+  color: #666;
 }

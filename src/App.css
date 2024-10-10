@@ -1,12 +1,19 @@
 body {
-  background-color: lightpink;
+  background-color: #eaf6f6;
 }
 
-.App {
+.App h1 {
   text-align: center;
+  margin: 60px 0 40px 0;
+}
+
+.App a {
+  color: #f76b8a;
 }
 
 .App footer {
   font-size: 11px;
   font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: 10px;
 }

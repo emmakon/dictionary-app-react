@@ -1,10 +1,32 @@
 .Dictionary form {
-  margin: 30px;
+  margin-top: 30px;
+}
+
+.Dictionary label {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 29px;
 }
 
 .Dictionary input {
-  padding: 10px;
-  border: none;
+  padding: 15px;
+  border: solid 1px lightgrey;
   border-radius: 4px;
-  min-width: 300px;
+  width: 100%;
+}
+
+.Dictionary small {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.Dictionary section {
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 8px;
+  background: #fcfefe;
+  margin-top: 10px;
+  padding: 40px;
 }

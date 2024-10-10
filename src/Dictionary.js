@@ -28,9 +28,13 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search" autoFocus={true} onChange={captureInput} />
-      </form>
+      <section>
+        <form onSubmit={search}>
+          <label>What word do you want to look up?</label>
+          <input type="search" autoFocus={true} onChange={captureInput} />
+        </form>
+        <small>i.e. book, beer, dog, coding</small>
+      </section>
       <Definitions dictData={dictData} />
     </div>
   );

@@ -7,10 +7,29 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 className="mt-5">Dictionary App</h1>
+        <h1>Dictionary App</h1>
         <Dictionary defaultWord="sunset" />
         <footer>
-          Coded by Emma Konrad, open-sourced on Github and hosted on Netflify
+          Coded by{" "}
+          <a href="https://github.com/emmakon" target="_blank" rel="noreferrer">
+            Emma Konrad
+          </a>
+          , open-sourced on{" "}
+          <a
+            href="https://github.com/emmakon/dictionary-app-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://dictionary-app-ek.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netflify
+          </a>
         </footer>
       </div>
     </div>

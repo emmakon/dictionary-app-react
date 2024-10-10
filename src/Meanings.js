@@ -9,14 +9,14 @@ export default function Meanings(props) {
       {props.meanings.map(function (singleDefinition, index) {
         return (
           <div key={index}>
-            <h3>{singleDefinition.partOfSpeech}</h3>
-            <div>
-              <strong>Definition:</strong> {singleDefinition.definition}
-              <br />
-              <strong>Example:</strong>
-              <em>{singleDefinition.example}</em>
-              <Synonyms synonyms={singleDefinition.synonyms} />
-            </div>
+            <section>
+              <h3>{singleDefinition.partOfSpeech}</h3>
+              <div>
+                <p>{singleDefinition.definition}</p>
+                <em>{singleDefinition.example}</em>
+                <Synonyms synonyms={singleDefinition.synonyms} />
+              </div>
+            </section>
           </div>
         );
       })}
