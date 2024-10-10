@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>Dictionary App</h1>
-        <Dictionary defaultWord="sunset" />
+        <Dictionary defaultKeyword="sunset" />
         <footer>
           Coded by{" "}
           <a href="https://github.com/emmakon" target="_blank" rel="noreferrer">
